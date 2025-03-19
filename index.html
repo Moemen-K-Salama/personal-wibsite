@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moemen Salama</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <video class="video-loop" autoplay loop muted>
+      <source src="video/video-loop.mp4" type="video/mp4">
+    </video>
+    <header class="header">
+
+      <label class="burger-menu" for="menu">
+        <div class="burger-menu__bar"></div>
+        <div class="burger-menu__bar"></div>
+        <div class="burger-menu__bar"></div>
+      </label>
+      <input id="menu" class="burger-menu__checkbox" type="checkbox">
+
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li>
+            <a class="navigation__link navigation__bio" href="#bio">Bio</a>
+          </li>
+          <li>
+            <a class="navigation__link navigation__skills" href="#skills">Skills</a>
+          </li>
+          <li>
+            <a class="navigation__link navigation__media" href="#media">Media</a>
+          </li>
+          <li>
+            <a class="navigation__link navigation__project" href="#project">Projects</a>
+          </li>
+          <li>
+            <a class="navigation__link navigation__clients" href="#clients">My Clients</a>
+          </li>
+          <li>
+            <a class="navigation__link navigation__contact" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="toggle">
+        <h3 class="toggle__title">Switch Theme</h3>
+        <input type="checkbox" id="toggle" name="toggle checkbox" class="toggle__checkbox">
+        <label for="toggle" class="toggle__label"></label>
+      </div>
+    </header>
+
+    <section id="bio" class="bio section">
+      <div class="bio__data">
+        <h1 class="bio__heading">Hi There, I’M A Passionate Software Engineer</h1>
+        <p class="bio__objective">My name is <span class="bio__name">Moemen Salama</span>, I'm a Student at
+          <a class="bio__elmdrasa" href="https://www.za.edu.eg/">the Higher Institute
+            of Computer
+            and Business Administration in Zarqa</a>, Software Engineer and You can reach me on
+          <a href="https://www.facebook.com/share/1DwfEcc59A/" class="bio__facebook">Facebook</a>,
+          <a href="https://www.linkedin.com/in/moemen-k-salama?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            class="bio__linkedin">LinkedIn</a>,
+          <a href="https://www.instagram.com/moemen_k_salama?igsh=MXB0dG5wb2o3dDlkZw=="
+            class="bio__instagram">Instagram</a> and
+          <a href="https://x.com/Moaa15033845?t=F9ZX-xgXzn79hshTz1IIwA&s=09" class="bio__twitter">Twitter</a>
+        </p>
+
+        <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+        <a href="img/cv.jpg" class="bio__links find-out-link">Download CV <span class="bio__arrow">↓</span></a>
+      </div>
+      <div class="bio__pic-content"><img class="bio__pic" src="./img/my-photo.png" alt="image of moemen salama"></div>
+    </section>
+
+    <section id="skills" class="skills section section--with-bg">
+      <h2 class="h2-heading">Skills</h2>
+      <ul class="skills__list">
+        <li class="skills__unit">
+          <h3 class="skills__name">HTML</h3>
+          <p class="skills__years">8 years</p>
+        </li>
+        <li class="skills__unit">
+          <h3 class="skills__name">CSS</h3>
+          <p class="skills__years">8 years</p>
+        </li>
+        <li class="skills__unit">
+          <h3 class="skills__name">Javascript</h3>
+          <p class="skills__years">8 years</p>
+        </li>
+        <li class="skills__unit">
+          <h3 class="skills__name">React</h3>
+          <p class="skills__years">4 years</p>
+        </li>
+        <li class="skills__unit">
+          <h3 class="skills__name">Redux</h3>
+          <p class="skills__years">3 years</p>
+        </li>
+        <li class="skills__unit">
+          <h3 class="skills__name">React testing library</h3>
+          <p class="skills__years">1 year</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="media" class="media section">
+      <video class="media__video" poster="img/thumbnail.jpg" controls>
+        <source src="video/video.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    <section id="project" class="projects section">
+      <h2 class="h2-heading">MY FEATURED
+        <br> PROJECTS
+      </h2>
+      <div class="projects__main">
+        <img class="projects__img" src="img/project-1.jpg" alt="">
+        <div class="projects__data">
+          <h3 class="h3-heading">Quran Tab
+            <br> Extension
+          </h3>
+          <p class="projects__description">Quran Tab is an Islamic new tab page that will keep you inspired by a verse
+            from the Quran every time you
+            open a new tab
+            that helps you achieve your "Khatma" and keeps you connected with the words of Allah.
+          </p>
+          <a href="#" class="projects__link" target="_blank">Chrome Link</a>
+          <span>-</span>
+          <a href="#" class="projects__link" target="_blank">Edge Link</a>
+        </div>
+
+        <div class="projects__data">
+          <h3 class="h3-heading">
+            Quran Station <br />
+            Extension
+          </h3>
+          <p class="projects__description">
+            Small extension that gives you access to over 100 stations to help you listen to the Quran from your
+            favorite reciters easily Quran-Station has over 100 stations to help you listen to the Quran from your
+            favorite reciters in a quick and easy way.
+          </p>
+          <a class="projects__link" href="#" target="_blank">Chrome Link</a>
+          <span>-</span>
+          <a class="projects__link" href="#" target="_blank">Firefox Link</a>
+          <span>-</span>
+          <a class="projects__link" href="#" target="_blank">Edge Link</a>
+        </div>
+        <img class="projects__img responsive-img" src="img/project-2.jpg" alt="" />
+
+      </div>
+    </section>
+
+    <section id="clients" class="clients section section--with-bg">
+      <h2 class="h2-heading">What My
+        <br>Clients Says.
+      </h2>
+      <div class="clients__opinions">
+        <div class="clients__wrapper">
+          <p class="clients__opinion">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione tenetur, deleniti blanditiis nemo incidunt
+            harum. Maiores quo, unde nisi quam veniam mollitia quos minus tenetur ipsam necessitatibus at, molestiae
+            officiis.
+          </p>
+          <p class="clients__opinion">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Error possimus reiciendis maiores numquam molestiae voluptatum quos quo quibusdam nisi tempora facilis,
+            esse asperiores, vero aliquam ab animi aperiam neque.
+            Ullam earum doloribus suscipit inventore illum hic corporis nam praesentium provident?
+          </p>
+          <p class="clients__opinion">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsa veritatis id neque adipisci labore
+            aliquid alias officia, quibusdam itaque debitis nulla earum ad tenetur molestiae. Aspernatur exercitationem
+            ipsum, maxime sit nihil magni nulla dolorum.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div>
+        <p class="contact__description">
+          Feel free to reach out to me any time. I prefer to talk over email, especially since we may be a few time
+          zones away.
+        </p>
+        <a href="mailto: moemen.ka.salama@gmail.com" class="contact__email">moemen.ka.salama@gmail.com</a>
+        <div class="contact__socials">
+          <a href="#" class="contact__social">
+            <img src="img/social/facebook.svg" alt="facebook">
+          </a>
+          <a href="#" class="contact__social">
+            <img src="img/social/instagram.svg" alt="instagram">
+          </a>
+          <a href="#" class="contact__social">
+            <img src="img/social/youtube.svg" alt="youtube">
+          </a>
+          <a href="#" class="contact__social">
+            <img src="img/social/github.svg" alt="github">
+          </a>
+          <a href="#" class="contact__social">
+            <img src="img/social/LinkedIn.svg" alt="LinkedIn">
+          </a>
+          <a href="#" class="contact__social">
+            <img src="img/social/twitter.svg" alt="twitter">
+          </a>
+        </div>
+      </div>
+      <div class="contact__formContent">
+        <h2 class="h2-heading">Let’s Work
+          <br>Together!
+        </h2>
+        <!-- .. -->
+        <form action="results.html">
+          <div class="contact__inputs">
+            <input type="text" class="contact__input" name="name" placeholder="Full Name" required />
+            <input type="tel" class="contact__input" placeholder="Phone No." name="tel" required
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
+          </div>
+          <textarea class="contact__input contact__textarea" name="message" placeholder="Your Message" rows="1"
+            required></textarea>
+          <input type="submit" class="contact__button" value="Send Message" />
+        </form>
+
+      </div>
+    </section>
+
+    <footer class="footer">© 2025 by Moemen Salama</footer>
+  </div>
+</body>
+
+</html>
